@@ -250,3 +250,29 @@ header {
 #about-bottom{
     margin: 30px 20px;
 }
+
+@keyframes blackout {
+    to {
+		background-color: black;
+		color: white;
+		border: 1px solid white
+	}
+}
+
+.about-middle-item button:hover {
+	animation: blackout 300ms ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes high-light {
+    to {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+	}
+}
+
+#navbar nav a:hover {
+	animation: high-light 300ms ease;
+	animation-fill-mode: forwards;
+}
