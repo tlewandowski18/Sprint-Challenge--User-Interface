@@ -144,7 +144,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/* tl code starts here */
+/* tom-lewandowski code starts here */
 
 body {
     width: 80%;
@@ -217,3 +217,36 @@ header {
     background-color: dodgerblue;
 }
 
+#about-top {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+#about-middle {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-middle-item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+
+}
+
+.about-middle-item h2 {
+    margin-top: 10px;
+}
+
+.about-middle-item button {
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#about-bottom{
+    margin: 30px 20px;
+}
