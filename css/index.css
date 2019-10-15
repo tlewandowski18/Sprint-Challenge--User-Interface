@@ -144,3 +144,185 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* tom-lewandowski code starts here */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    display: flex;
+    align-items: baseline;
+}
+
+#navbar nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#navbar nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+#header-img-container {
+    margin: 30px 0 20px 0;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+#about-top {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+#about-middle {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-middle-item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+
+}
+
+.about-middle-item h2 {
+    margin-top: 10px;
+}
+
+.about-middle-item button {
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#about-bottom{
+    margin: 30px 20px;
+}
+
+@keyframes blackout {
+    to {
+		background-color: black;
+		color: white;
+		border: 1px solid white
+	}
+}
+
+.about-middle-item button:hover {
+	animation: blackout 300ms ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes high-light {
+    to {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+	}
+}
+
+#navbar nav a:hover {
+	animation: high-light 300ms ease;
+	animation-fill-mode: forwards;
+}
+
+#header-img-container img {
+    max-height: 250px;
+    width: 100%;
+}
+
+#product-top {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+#product-middle {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-middle-item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+
+}
+
+.product-middle-item h2 {
+    margin-top: 10px;
+}
+
+.product-middle-item button {
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.product-middle-item img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.product-middle-item button:hover {
+	animation: blackout 300ms ease;
+	animation-fill-mode: forwards;
+}
+
+.product-page footer {
+    width: 100%;
+}
+
